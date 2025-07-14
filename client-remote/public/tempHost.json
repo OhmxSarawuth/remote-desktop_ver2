@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Server A",
+    "ip": "192.168.1.10",
+    "port": 3389,
+    "tags": ["linux", "production"],
+    "user": [
+      { "user_id": 101, "username": "admin", "password": "admin123" },
+      { "user_id": 102, "username": "user", "password": "user123"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Server B",
+    "ip": "192.168.1.20",
+    "port": 22,
+    "tags": ["windows", "test"],
+    "user": [
+      { "user_id": 102, "username": "guest", "password": "guest123" }
+    ]
+  }
+]
