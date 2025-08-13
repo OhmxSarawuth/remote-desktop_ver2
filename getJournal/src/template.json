@@ -1,0 +1,20 @@
+[
+    {
+        "task": "runbatch",
+        "enviornment": "uat",
+        "start": "2031-03-19",
+        "end": "2031-03-20"
+    },
+    {
+        "task": "upload",
+        "src":"mail",
+        "des":"terminal",
+        "sys":"ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+        
+    },
+    {
+        "task":"import",
+        "env":"all",
+        "remark":""
+    }
+]
