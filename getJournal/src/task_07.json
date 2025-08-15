@@ -1,188 +1,133 @@
 [
     {
         "date": "2025-07-01",
-        "tasks" : [
-            
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "DEV(172.21.192.47)",
+                "des": "customer-review(172.21.0.130)",
+                "sys": "ระบบ Customer-review"
+            }
         ]
     },
     {
         "date": "2025-07-02",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-03",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-04",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-05",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-06",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-07",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-08",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-09",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-10",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-11",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-12",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-13",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-14",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-15",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-16",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-17",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-18",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-19",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-20",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-21",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-22",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-23",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-24",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-25",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-26",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-27",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-28",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-29",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-30",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-07-31",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     }
 ]

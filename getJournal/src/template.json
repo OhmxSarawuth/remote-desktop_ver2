@@ -7,15 +7,39 @@
         "end": "2031-03-20"
     },
     {
-        "task": "upload",
-        "src":"mail",
-        "des":"terminal",
-        "sys":"ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
-        
+        "task": "import",
+        "env": "all",
+        "remark": "recycle server process",
+        "sys": "CBS"
     },
     {
-        "task":"import",
-        "env":"all",
-        "remark":""
+        "task": "runMat",
+        "sys": "CBS",
+        "option": "prod"
+    },
+    {
+        "task": "upload",
+        "src": "mail",
+        "des": "terminal",
+        "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่"
+    },
+    {
+        "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+        "task": "upload-payment"
+    },
+    {
+        "task": "",
+        "text1": "mount ไฟล์ระบบจัดการเอกสารกระบวนการอำนวยสินเชื่อลูกค้ารายใหญ่ (SLA)",
+        "text2": "mount ไฟล์บนระบบจัดการเอกสารกระบวนการอำนวยสินเชื่อลูกค้ารายใหญ่ (SLA) บนเครื่อง eartquake101 ตาม pathfile ที่กำหนด"
+    },
+    {
+        "task": "update-gui",
+        "sys": "ระบบ BAAC-Loan",
+        "src": "baacloan.kube"
+    },
+    {
+        "task": "f1",
+        "sys": "Management Hardware ของระบบ Project LPS",
+        "option": "network vpn policies"
     }
 ]

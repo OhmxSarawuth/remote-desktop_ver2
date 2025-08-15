@@ -3,11 +3,13 @@
 const hosts = [
   { host_id: 1, host_name: "name1" },
   { host_id: 2, host_name: "name2" },
+  { host_id: 3, host_name: "name3" },
 ];
 
 const hostInfos = [
   { host_id: 1, ip: "192.168.1.10", description: "Host 1 info" },
   { host_id: 2, ip: "192.168.1.11", description: "Host 2 info" },
+  { host_id: 3, ip: "172.23.81.8", description: "Host 3 info" },
 ];
 
 
@@ -25,7 +27,11 @@ const tags = [
     {tag_id:11, host_id:1, tag_depend:2, tag_type: "user", tag_data:"ohmlinux"},
     {tag_id:12, host_id:1, tag_depend:11, tag_type:"password",tag_data:"linuxpass123"},
     {tag_id:13,host_id:2,tag_depend:3, tag_type:"user" , tag_data:"secoundwindow"},
-    {tag_id:14,hsot_id:2,tag_depend:13, tag_type:"password", tag_data:"secoun123"}
+    {tag_id:14,host_id:2,tag_depend:13, tag_type:"password", tag_data:"secoun123"},
+    {tag_id:15,host_id:3,tag_depend:0,tag_type:"os",tag_data:"linux"},
+    {tag_id:16,host_id:3,tag_depend:15,tag_type:"env",tag_data:"dev"},
+    {tag_id:17,host_id:3,tag_depend:15,tag_type:"user",tag_data:"root"},
+    {tag_id:18,host_id:3,tag_depend:17,tag_type:"password",tag_data:"password"}
 
 ]
 

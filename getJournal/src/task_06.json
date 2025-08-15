@@ -15,10 +15,21 @@
         "date": "2025-06-04",
         "tasks": [
             {
+                "sys": "CBS",
                 "task": "runbatch",
                 "enviornment": "uat",
                 "start": "2031-03-19",
                 "end": "2031-03-20"
+            },
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            },
+            {
+                "task": "upload",
+                "src": "christmas101",
+                "des": "amber",
+                "sys": ""
             }
         ]
     },
@@ -33,8 +44,23 @@
                 "task": "upload",
                 "src": "mail",
                 "des": "terminal",
-                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่"
             },
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "terminal",
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่"
+            },
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            },
+            {
+                "task": "runMat",
+                "sys": "CBS",
+                "option": "prod"
+            }
         ]
     },
     {
@@ -47,23 +73,174 @@
     },
     {
         "date": "2025-06-09",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "christmas101",
+                "des": "amber",
+                "sys": ""
+            },
+            {
+                "task": "upload",
+                "src": "christmas202",
+                "des": "mail",
+                "sys": "Remittance"
+            },
+            {
+                "task": "upload",
+                "src": "christmas101",
+                "des": "fraud",
+                "sys": "Fraud AML"
+            },
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "univer.int",
+                "sys": "ระบบขอใช้ห้องประชุมอาคาร oaMeeting"
+            }
+        ]
     },
     {
         "date": "2025-06-10",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "cristmas202",
+                "des": "terminal",
+                "sys": "ระบบทดสอบ UAT"
+            },
+            {
+                "task": "upload",
+                "src": "dev(172.26.81.25)",
+                "des": "ihasa.int",
+                "sys": "ระบบ newgen-smartfarmer"
+            },
+            {
+                "task": "upload",
+                "src": "dev(172.21.192.47)",
+                "des": "customer-review.kube(172.21.0.130)",
+                "sys": "ระบบ customer-review"
+            },
+            {
+                "task": "upload",
+                "src": "unicorn",
+                "des": "dev201.core",
+                "sys": "ระบบทดสอบสลาก ที่ Unicorn"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "upload",
+                "src": "Bureau_v2(172.26.35.27)",
+                "des": "Bureauweb",
+                "sys": "ระบบ Bureau"
+            },
+            {
+                "task": "upload",
+                "src": "christmas202",
+                "des": "mail",
+                "sys": "ระบบ UAT Remittance Phase 2"
+            }
+        ]
     },
     {
         "date": "2025-06-11",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "upload",
+                "src": "jasper(172.26.82.61)",
+                "des": " baacloanjasperkube.kube",
+                "sys": "ระบบ BAAC-Loan"
+            }
+        ]
     },
     {
         "date": "2025-06-12",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "christmas202",
+                "des": "mail",
+                "sys": "ระบบ UAT Remittance Phase 2"
+            },
+            {
+                "task": "upload",
+                "src": "jasper(172.26.82.61)",
+                "des": " baacloanjasperkube.kube",
+                "sys": "ระบบ BAAC-Loan"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "",
+                "text": "mount ไฟล์บนระบบจัดการเอกสารกระบวนการอำนวยสินเชื่อลูกค้ารายใหญ่ (SLA) บนเครื่อง eartquake101 ตาม pathfile ที่กำหนด"
+            },
+            {
+                "task": "update-gui",
+                "sys": "ระบบ BAAC-Loan",
+                "src": "baacloan.kube"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "christmas201.int",
+                "sys": "GroupPayment"
+            },
+            {
+                "task": "upload",
+                "src": "christmas202",
+                "des": "mail",
+                "sys": "ระบบ UAT Remittance Phase 2"
+            },
+            {
+                "task": "upload",
+                "src": "jasper(172.26.82.61)",
+                "des": " baacloanjasperkube.kube",
+                "sys": "ระบบ BAAC-Loan"
+            }
+        ]
     },
     {
         "date": "2025-06-13",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "christmas101",
+                "des": "dev201.core",
+                "sys": "ตัดชำระฌครงการ อสม ที่ PROD"
+            },
+            {
+                "task": "upload",
+                "src": "dev201.core",
+                "des": "exadb",
+                "sys": "ตัดชำระฌครงการ อสม ที่ PROD"
+            },
+            {
+                "task": "f1",
+                "sys": "Management Hardware ของระบบ Project LPS",
+                "option": "network vpn policies"
+            }
+        ]
     },
     {
         "date": "2025-06-14",
@@ -75,23 +252,132 @@
     },
     {
         "date": "2025-06-16",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uat",
+                "start": "2031-03-21",
+                "end": "2031-03-22"
+            }
+        ]
     },
     {
         "date": "2025-06-17",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "upload",
+                "src": "DEV(172.21.192.47)",
+                "des": "customer-review.kube(172.21.0.130)",
+                "sys": "ระบบ Customer-review"
+            },
+            {
+                "task": "upload",
+                "src": "DEV(172.26.81.25)",
+                "des": "Ihasa.int",
+                "sys": "ระบบ Revival-customer"
+            },
+            {
+                "task": "",
+                "text1": "upload ไฟล์ บนระบบรับส่งข้อมูลสาขา",
+                "text2": "upload file .csv จาก mail ไปยังเครื่อง terminal เเล้วเขียน script เเจก file ตาม path ที่กำหนด"
+            }
+        ]
     },
     {
         "date": "2025-06-18",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "DEV(172.26.81.25)",
+                "des": "Ihasa.int",
+                "sys": "ระบบ Newgen-smartfarmer"
+            },
+            {
+                "task": "upload",
+                "src": "christmas202.kube",
+                "des": "mail",
+                "sys": "ระบบ UAT Remittance Phase 2"
+            },
+            {
+                "task": "f1",
+                "sys": "Virtual Audit",
+                "option": "vpn policies"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uat",
+                "start": "2031-03-22",
+                "end": "2031-03-23"
+            }
+        ]
     },
     {
         "date": "2025-06-19",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "christmas202.kube",
+                "des": "mail",
+                "sys": "UAT Remittance Phase 2"
+            },
+            {
+                "task": "upload",
+                "src": "DEV(172.21.192.47)",
+                "des": "customer-review.kube(172.21.0.130)",
+                "sys": "ระบบ Customer-review"
+            },
+            {
+                "task": "",
+                "text1": "reload environment istb บนระบบ CBS"
+            }
+        ]
     },
     {
         "date": "2025-06-20",
-        "tasks": []
+        "tasks": [
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            },
+            {
+                "task": "upload",
+                "src": "univer.int",
+                "des": "mail",
+                "sys": "ระบบชำระค่าน้ำมันเชื้อเพลิง"
+            },
+            {
+                "task": "upload",
+                "src": "christmas202.kube",
+                "des": "mail",
+                "sys": "UAT Remittance Phase 2"
+            },
+            {
+                "task": "f1",
+                "sys": "ติดตั้ง e-LG system",
+                "option": "policies"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uat",
+                "start": "2031-03-26",
+                "end": "2031-04-01"
+            },
+            {
+                "task": "upload",
+                "src": "Halloween PROD",
+                "des": "mail",
+                "sys": "ระบบ Swiftmx and mt"
+            }
+        ]
     },
     {
         "date": "2025-06-21",
@@ -103,23 +389,114 @@
     },
     {
         "date": "2025-06-23",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uat",
+                "start": "2031-04-01",
+                "end": "2031-04-02"
+            }
+        ]
     },
     {
         "date": "2025-06-24",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "istb",
+                "start": "2025-04-22",
+                "end": "2025-04-25"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uatb",
+                "start": "2025-05-11",
+                "end": "2025-05-12"
+            }
+        ]
     },
     {
         "date": "2025-06-25",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "task": "f1",
+                "sys": "Vitual Audit",
+                "option": "network"
+            }
+        ]
     },
     {
         "date": "2025-06-26",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "bureau_v2(172.26.35.27)",
+                "des": "bureauweb",
+                "sys": "ระบบ bureau"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "upload",
+                "src": "bureau_v2(172.26.35.27)",
+                "des": "bureauweb",
+                "sys": "ระบบ bureau"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "task": "upload",
+                "src": "172.26.82.61",
+                "des": "jasper PROD",
+                "sys": "ระบบ BAAC-Loan"
+            }
+        ]
     },
     {
         "date": "2025-06-27",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process เเละ reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "istb",
+                "start": "2025/05/17",
+                "end": "2025/05/19"
+            },
+            {}
+        ]
     },
     {
         "date": "2025-06-28",
@@ -131,7 +508,18 @@
     },
     {
         "date": "2025-06-30",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "dev(172.21.192.47)",
+                "des": "customer-review.kube(172.21.0.130)",
+                "sys": "ระบบ customer-review"
+            },
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            }
+        ]
     },
     {
         "date": "2025-06-31",
