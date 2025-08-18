@@ -1,0 +1,275 @@
+///////// วันที่ : 2025-07-01 /////
+
+ลำดับที่ 1: ให้ นำส่ง file บนระบบ ระบบ Customer-review
+ลำดับที่ 2: เปิด f1 เรื่อง Management Hardware ของระบบ Project LPS
+ลำดับที่ 3: เปิด f1 เรื่อง Access Loma ของระบบ EDMS
+ลำดับที่ 4: ให้ นำส่ง file บนระบบ ระบบเบิกเช็ค
+ลำดับที่ 5: ให้ Import Configuration บนระบบ CBS
+
+ลำดับที่ 1: ดำเนินการ นำส่ง file จาก จากเครื่อง DEV(172.21.192.47) ไปยัง เครื่อง customer-review(172.21.0.130) ตาม path ที่กำหนด
+ลำดับที่ 2: ดำเนินการสร้างคำขอ policies network vpn policies ของ Management Hardware ของระบบ Project LPS บนระบบ f1
+ลำดับที่ 3: ดำเนินการสร้างคำขอ policies policies ของ Access Loma ของระบบ EDMS บนระบบ f1
+ลำดับที่ 4: ดำเนินการ นำส่ง file จาก จากเครื่อง LMSSRV(172.29.31.39) ไปยัง user ผ่าน mail
+ลำดับที่ 5: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ 
+
+///////// วันที่ : 2025-07-02 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-03 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-04 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-05 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-06 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-07 /////
+
+ลำดับที่ 1: ให้ Import Configuration บนระบบ CBS
+ลำดับที่ 2: เปิด f1 เรื่อง ขอขยายเวลลาการใช้งานของระบบ Project LPS
+ลำดับที่ 3: ให้ Import Configuration บนระบบ CBS
+
+ลำดับที่ 1: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ 
+ลำดับที่ 2: ดำเนินการสร้างคำขอ policies network vpn policies ของ ขอขยายเวลลาการใช้งานของระบบ Project LPS บนระบบ f1
+ลำดับที่ 3: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+///////// วันที่ : 2025-07-08 /////
+
+ลำดับที่ 1: เปิด f1 เรื่อง ระบบ ศาลยุติธรรม
+ลำดับที่ 2: ต่ออายุ Certificate 
+ลำดับที่ 3: ให้ นำส่ง file บนระบบ ระบบรับ-ส่งข้อมูล สำนักงานใหญ่
+ลำดับที่ 4: ให้ นำส่ง file บนระบบ ระบบ Fruad-AML
+ลำดับที่ 5: เปิด f1 เรื่อง ขยายระยะเวลา UserVpn ระบบ โครงการ TFRS9
+ลำดับที่ 6: ให้ นำส่ง file บนระบบ ระบบ bureau เพื่อประมวลผลนำส่งบริษัท NCB
+ลำดับที่ 7: ให้ Import Configuration บนระบบ CBS
+ลำดับที่ 8: ให้ Import Configuration บนระบบ CBS
+
+ลำดับที่ 1: ดำเนินการสร้างคำขอ policies network vpn policies ของ ระบบ ศาลยุติธรรม บนระบบ f1
+ลำดับที่ 2: ดำเนินการ เปลี่ยน certificate บนระบบ icodev.app server Production ให้เป็น version ใหม่
+ลำดับที่ 3: ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด
+ลำดับที่ 4: ดำเนินการ นำส่ง file จาก จากเครื่อง cristmas101.int ไปยัง เครื่อง Fruad (172.29.28.112) ตาม path ที่กำหนด
+ลำดับที่ 5: ดำเนินการสร้างคำขอ policies network vpn policies ของ ขยายระยะเวลา UserVpn ระบบ โครงการ TFRS9 บนระบบ f1
+ลำดับที่ 6: ดำเนินการ นำส่ง file จาก จากเครื่อง bureauWeb(172.29.31.91) ไปยัง เครื่อง Server(172.26.35.27) ตาม path ที่กำหนด
+ลำดับที่ 7: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ หลังจากทำการ rebuild เเล้ว recycle server process
+ลำดับที่ 8: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+///////// วันที่ : 2025-07-09 /////
+
+ลำดับที่ 1: ให้ นำส่ง file บนระบบ ระบบ bureau เพื่อ เพิ่มไฟล์ประกาศข่าว
+ลำดับที่ 2: ให้ นำส่ง file บนระบบ ระบบ Fruad-AML
+ลำดับที่ 3: ให้ทำการ Upload Payment code
+
+ลำดับที่ 1: ดำเนินการ นำส่ง file จาก จากเครื่อง bureau v2 ไปยัง เครื่อง bureauWeb(172.29.31.91) ตาม path ที่กำหนด
+ลำดับที่ 2: ดำเนินการ นำส่ง file จาก จากเครื่อง christmas101.int ไปยัง เครื่อง Fruad(172.29.28.112) ตาม path ที่กำหนด
+ลำดับที่ 3: ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+///////// วันที่ : 2025-07-10 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-11 /////
+
+ลำดับที่ 1: ให้ reset password ระบบ ระบบ unicorn
+ลำดับที่ 2: Run batch บนระบบ CBS ที่ environment uatb
+ลำดับที่ 3: เปิด f1 เรื่อง โครงการ Kickoff MA Call Center
+
+ลำดับที่ 1: ดำเนินการ เข้า ระบบ ระบบ unicorn ด้วยสิทธิ admin เเล้วทำการ reset password ให้กับ user
+ลำดับที่ 2: ดำเนินการ run batch ตั้งแต่วันที่ 2025-05-18 ถึง 2025-05-19 เป็นระยะเวลา 1 วัน
+ลำดับที่ 3: ดำเนินการสร้างคำขอ policies policies ของ โครงการ Kickoff MA Call Center บนระบบ f1
+
+///////// วันที่ : 2025-07-12 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-13 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-14 /////
+
+ลำดับที่ 1: ให้ นำส่ง file บนระบบ ระบบรับ-ส่ง ข้อมูลสาขา
+ลำดับที่ 2: เปิด f1 เรื่อง ต่ออายุ user policies ทีมงาน TechX ระบบ LPS
+ลำดับที่ 3: ให้ นำส่ง file บนระบบ ระบบรับ-ส่งข้อมูล สาขา Data Delivery
+ลำดับที่ 4: ให้ นำส่ง file บนระบบ โครงการ Newgen-Smartfarmer
+ลำดับที่ 5: เปิด f1 เรื่อง เพิ่มสิทธิ ให้ user โครงการ e-LG
+ลำดับที่ 6: เปิด f1 เรื่อง เปิด policies ให้ user ระบบ JetBrains
+
+ลำดับที่ 1: ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด
+ลำดับที่ 2: ดำเนินการสร้างคำขอ policies network vpn policies ของ ต่ออายุ user policies ทีมงาน TechX ระบบ LPS บนระบบ f1
+ลำดับที่ 3: ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด
+ลำดับที่ 4: ดำเนินการ นำส่ง file จาก จากเครื่อง Dev(172.26.81.25) ไปยัง เครื่อง Ihasa.int ตาม path ที่กำหนด
+ลำดับที่ 5: ดำเนินการสร้างคำขอ policies policies ของ เพิ่มสิทธิ ให้ user โครงการ e-LG บนระบบ f1
+ลำดับที่ 6: ดำเนินการสร้างคำขอ policies policies ของ เปิด policies ให้ user ระบบ JetBrains บนระบบ f1
+
+///////// วันที่ : 2025-07-15 /////
+
+ลำดับที่ 1: ให้ นำส่ง file บนระบบ ระบบ EWS 
+ลำดับที่ 2: ให้ นำส่ง file บนระบบ ระบบ bureau
+
+ลำดับที่ 1: ดำเนินการ นำส่ง file จาก จากเครื่อง jewel.int Production ไปยัง เครื่อง DEV(172.26.81.85) ตาม path ที่กำหนด
+ลำดับที่ 2: ดำเนินการ นำส่ง file จาก จากเครื่อง bureauWeb(172.29.31.91) ไปยัง เครื่อง Server(172.26.35.27) ตาม path ที่กำหนด
+
+///////// วันที่ : 2025-07-16 /////
+
+ลำดับที่ 1: ให้ นำส่ง file บนระบบ ระบบ bureau
+ลำดับที่ 2: นำส่ง รายงาน auto Cr/Dr บนระบบ รับส่งข้อมูล
+ลำดับที่ 3: ให้ update image version ของระบบ ระบบ BAAC-Loan
+ลำดับที่ 4: เปิด f1 เรื่อง ต่ออายุ user policies ทีมงาน TechX ระบบ LPS
+
+ลำดับที่ 1: ดำเนินการ นำส่ง file จาก จากเครื่อง bureauWeb(172.29.31.91) ไปยัง เครื่อง Server(172.26.35.27) ตาม path ที่กำหนด
+ลำดับที่ 2: ดำเนินการ ซ่อม file ย้อนหลังตามคู่มือ เเล้วทำการนำส่งรายงาน auto Cr/Dr เข้าสู่ระบบรับส่งข้อมูลสาขา
+ลำดับที่ 3: ดำเนินการ update image version ของระบบ ระบบ BAAC-Loan พร้อม restart service ให้ทำงานได้ตามปกติ
+ลำดับที่ 4: ดำเนินการสร้างคำขอ policies network policies ของ ต่ออายุ user policies ทีมงาน TechX ระบบ LPS บนระบบ f1
+
+///////// วันที่ : 2025-07-17 /////
+
+ลำดับที่ 1: เปิด f1 เรื่อง ต่ออายุ user policies ทีมงาน TechX ระบบ LPS
+
+ลำดับที่ 1: ดำเนินการสร้างคำขอ policies network policies ของ ต่ออายุ user policies ทีมงาน TechX ระบบ LPS บนระบบ f1
+
+///////// วันที่ : 2025-07-18 /////
+
+ลำดับที่ 1: นำส่ง log ของเครื่อง ins-query
+ลำดับที่ 2: ให้ update image version ของระบบ 
+ลำดับที่ 3: ให้ update image version ของระบบ ระบบ BAAC-Loan
+ลำดับที่ 4: ให้ Import Configuration บนระบบ CBS
+ลำดับที่ 5: ให้ update image version ของระบบ ระบบ BAAC-Loan
+
+ลำดับที่ 1: download logfile ของเครื่อง ins-query จาก  
+ลำดับที่ 2: ดำเนินการ update image version ของระบบ  พร้อม restart service ให้ทำงานได้ตามปกติ
+ลำดับที่ 3: ดำเนินการ update image version ของระบบ ระบบ BAAC-Loan พร้อม restart service ให้ทำงานได้ตามปกติ
+ลำดับที่ 4: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+ลำดับที่ 5: ดำเนินการ update image version ของระบบ ระบบ BAAC-Loan พร้อม restart service ให้ทำงานได้ตามปกติ
+
+///////// วันที่ : 2025-07-19 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-20 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-21 /////
+
+ลำดับที่ 1: ให้ นำส่ง file บนระบบ ระบบ AAG
+ลำดับที่ 2: เปิด f1 เรื่อง ขยายเวลา wifi/vpn ให้บริษัทคู่สัญญา
+ลำดับที่ 3: สร้าง uesr เเละ folder ในระบบ unicorn
+ลำดับที่ 4: ให้ Import Configuration บนระบบ CBS
+
+ลำดับที่ 1: ดำเนินการ นำส่ง file จาก จากเครื่อง Production(172,29,22,66) ไปยัง user ผ่าน mail
+ลำดับที่ 2: ดำเนินการสร้างคำขอ policies network vpn policies ของ ขยายเวลา wifi/vpn ให้บริษัทคู่สัญญา บนระบบ f1
+ลำดับที่ 3: ดำเนินการสร้าง folder ตาม path เครื่อง unicorn เเละ config user ตามที่กำหนด
+ลำดับที่ 4: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ 
+
+///////// วันที่ : 2025-07-22 /////
+
+ลำดับที่ 1: ให้ Import Configuration บนระบบ CBS
+ลำดับที่ 2: สร้าง uesr เเละ folder ในระบบ unicorn
+ลำดับที่ 3: ให้ Import Configuration บนระบบ CBS
+ลำดับที่ 4: ให้ Import Configuration บนระบบ CBS
+
+ลำดับที่ 1: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+ลำดับที่ 2: ดำเนินการสร้าง folder ตาม path เครื่อง unicorn เเละ config user ตามที่กำหนด
+ลำดับที่ 3: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+ลำดับที่ 4: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+///////// วันที่ : 2025-07-23 /////
+
+ลำดับที่ 1: เปิด f1 เรื่อง ขอใช้งาน vpn ระบบงานทดสอบ Uat
+ลำดับที่ 2: ให้ นำส่ง file บนระบบ โครงการ TFRS9
+ลำดับที่ 3: ให้ทำการ Upload Payment code
+
+ลำดับที่ 1: ดำเนินการสร้างคำขอ policies vpn policies ของ ขอใช้งาน vpn ระบบงานทดสอบ Uat บนระบบ f1
+ลำดับที่ 2: ดำเนินการ นำส่ง file จาก จากเครื่อง christmas101.int ไปยัง เครื่อง christmas202.kube ตาม path ที่กำหนด
+ลำดับที่ 3: ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+///////// วันที่ : 2025-07-24 /////
+
+ลำดับที่ 1: ให้ Import Configuration บนระบบ CBS
+ลำดับที่ 2: ให้ Import Configuration บนระบบ CBS
+
+ลำดับที่ 1: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+ลำดับที่ 2: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+///////// วันที่ : 2025-07-25 /////
+
+ลำดับที่ 1: Reset Password ของ user บนระบบ CBS
+ลำดับที่ 2: update image version บนเครื่อง K8S บน cluster Liverpool
+ลำดับที่ 3: ให้ทำการ Upload Payment code
+ลำดับที่ 4: เปิด f1 เรื่อง ขอ policy ระบบทดสอบ uat
+
+ลำดับที่ 1: ทำการเข้า nonprdidm.core เพื่อเข้าไป reset password ของ user ที่ีะบุไว้
+ลำดับที่ 2: ทำการเข้า ระบบ EPL เพื่อ update image version ของระบบทีกำหนด
+ลำดับที่ 3: ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+ลำดับที่ 4: ดำเนินการสร้างคำขอ policies policies ของ ขอ policy ระบบทดสอบ uat บนระบบ f1
+
+///////// วันที่ : 2025-07-26 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-27 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-28 /////
+
+
+
+
+
+///////// วันที่ : 2025-07-29 /////
+
+ลำดับที่ 1: Run batch บนระบบ CBS ที่ environment uat
+
+ลำดับที่ 1: ดำเนินการ run batch ตั้งแต่วันที่ 2031-04-29 ถึง 2031-05-01 เป็นระยะเวลา 2 วัน
+
+///////// วันที่ : 2025-07-30 /////
+
+ลำดับที่ 1: ให้ Import Configuration บนระบบ CBS
+ลำดับที่ 2: Run batch บนระบบ CBS ที่ environment istb
+ลำดับที่ 3: ให้ นำส่ง file บนระบบ ระบบ slak
+ลำดับที่ 4: ให้ Import Configuration บนระบบ CBS
+
+ลำดับที่ 1: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+ลำดับที่ 2: ดำเนินการ run batch ตั้งแต่วันที่ 2031-06-13 ถึง 2031-06-18 เป็นระยะเวลา 5 วัน
+ลำดับที่ 3: ดำเนินการ นำส่ง file จาก จากเครื่อง dev201.core ไปยัง เครื่อง christmas202.kube ตาม path ที่กำหนด
+ลำดับที่ 4: ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+///////// วันที่ : 2025-07-31 /////
+
+
+
+
