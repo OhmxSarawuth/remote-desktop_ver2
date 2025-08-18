@@ -7,6 +7,28 @@
                 "src": "DEV(172.21.192.47)",
                 "des": "customer-review(172.21.0.130)",
                 "sys": "ระบบ Customer-review"
+            },
+            {
+                "task": "f1",
+                "sys": "Management Hardware ของระบบ Project LPS",
+                "option": "network vpn policies"
+            },
+            {
+                "task": "f1",
+                "sys": "Access Loma ของระบบ EDMS",
+                "option": "policies"
+            },
+            {
+                "task": "upload",
+                "src": "LMSSRV(172.29.31.39)",
+                "des": "mail",
+                "sys": "ระบบเบิกเช็ค"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "",
+                "sys": "CBS"
             }
         ]
     },
@@ -32,15 +54,95 @@
     },
     {
         "date": "2025-07-07",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "",
+                "sys": "CBS"
+            },
+            {
+                "task": "f1",
+                "sys": "ขอขยายเวลลาการใช้งานของระบบ Project LPS",
+                "option": "network vpn policies"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            }
+        ]
     },
     {
         "date": "2025-07-08",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "f1",
+                "sys": "ระบบ ศาลยุติธรรม",
+                "option": "network vpn policies"
+            },
+            {
+                "task": "certificate",
+                "src": "icodev.app server Production"
+            },
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "terminal",
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่"
+            },
+            {
+                "task": "upload",
+                "src": "cristmas101.int",
+                "des": "Fruad (172.29.28.112)",
+                "sys": "ระบบ Fruad-AML"
+            },
+            {
+                "task": "f1",
+                "sys": "ขยายระยะเวลา UserVpn ระบบ โครงการ TFRS9",
+                "option": "network vpn policies"
+            },
+            {
+                "task": "upload",
+                "src": "bureauWeb(172.29.31.91)",
+                "des": "Server(172.26.35.27)",
+                "sys": "ระบบ bureau เพื่อประมวลผลนำส่งบริษัท NCB"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "หลังจากทำการ rebuild เเล้ว recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            }
+        ]
     },
     {
         "date": "2025-07-09",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "bureau v2",
+                "des": "bureauWeb(172.29.31.91)",
+                "sys": "ระบบ bureau เพื่อ เพิ่มไฟล์ประกาศข่าว"
+            },
+            {
+                "task": "upload",
+                "src": "christmas101.int",
+                "des": "Fruad(172.29.28.112)",
+                "sys": "ระบบ Fruad-AML"
+            },
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            }
+        ]
     },
     {
         "date": "2025-07-10",
@@ -48,7 +150,24 @@
     },
     {
         "date": "2025-07-11",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "reset",
+                "sys": "ระบบ unicorn"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uatb",
+                "start": "2025-05-18",
+                "end": "2025-05-19"
+            },
+            {
+                "task": "f1",
+                "sys": "โครงการ Kickoff MA Call Center",
+                "option": "policies"
+            }
+        ]
     },
     {
         "date": "2025-07-12",
@@ -60,23 +179,124 @@
     },
     {
         "date": "2025-07-14",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "terminal",
+                "sys": "ระบบรับ-ส่ง ข้อมูลสาขา"
+            },
+            {
+                "task": "f1",
+                "sys": "ต่ออายุ user policies ทีมงาน TechX ระบบ LPS",
+                "option": "network vpn policies"
+            },
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "terminal",
+                "sys": "ระบบรับ-ส่งข้อมูล สาขา Data Delivery"
+            },
+            {
+                "task": "upload",
+                "src": "Dev(172.26.81.25)",
+                "des": "Ihasa.int",
+                "sys": "โครงการ Newgen-Smartfarmer"
+            },
+            {
+                "task": "f1",
+                "sys": "เพิ่มสิทธิ ให้ user โครงการ e-LG",
+                "option": "policies"
+            },
+            {
+                "task": "f1",
+                "sys": "เปิด policies ให้ user ระบบ JetBrains",
+                "option": "policies"
+            }
+        ]
     },
     {
         "date": "2025-07-15",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "jewel.int Production",
+                "des": "DEV(172.26.81.85)",
+                "sys": "ระบบ EWS "
+            },
+            {
+                "task": "upload",
+                "src": "bureauWeb(172.29.31.91)",
+                "des": "Server(172.26.35.27)",
+                "sys": "ระบบ bureau"
+            }
+        ]
     },
     {
         "date": "2025-07-16",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "bureauWeb(172.29.31.91)",
+                "des": "Server(172.26.35.27)",
+                "sys": "ระบบ bureau"
+            },
+            {
+                "task": "auto",
+                "sys": "ระบบ CBS"
+            },
+            {
+                "task": "update-gui",
+                "sys": "ระบบ BAAC-Loan",
+                "src": "purelife"
+            },
+            {
+                "task": "f1",
+                "sys": "ต่ออายุ user policies ทีมงาน TechX ระบบ LPS",
+                "option": "network policies"
+            }
+        ]
     },
     {
         "date": "2025-07-17",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "f1",
+                "sys": "ต่ออายุ user policies ทีมงาน TechX ระบบ LPS",
+                "option": "network policies"
+            }
+        ]
     },
     {
         "date": "2025-07-18",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "",
+                "text1": "นำส่ง log ของเครื่อง ins-query",
+                "text2": "download logfile ของเครื่อง ins-query จาก  "
+            },
+            {
+                "task": "update-gui",
+                "sys": "",
+                "src": "ins-query"
+            },
+            {
+                "task": "update-gui",
+                "sys": "ระบบ BAAC-Loan",
+                "src": "baacloan.kube"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "update-gui",
+                "sys": "ระบบ BAAC-Loan",
+                "src": "baacloan.kube"
+            }
+        ]
     },
     {
         "date": "2025-07-19",
@@ -88,23 +308,119 @@
     },
     {
         "date": "2025-07-21",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "Production(172,29,22,66)",
+                "des": "mail",
+                "sys": "ระบบ AAG"
+            },
+            {
+                "task": "f1",
+                "sys": "ขยายเวลา wifi/vpn ให้บริษัทคู่สัญญา",
+                "option": "network vpn policies"
+            },
+            {
+                "task": "",
+                "text1": "สร้าง uesr เเละ folder ในระบบ unicorn",
+                "text2": "ดำเนินการสร้าง folder ตาม path เครื่อง unicorn เเละ config user ตามที่กำหนด"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "",
+                "sys": "CBS"
+            }
+        ]
     },
     {
         "date": "2025-07-22",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "",
+                "text1": "สร้าง uesr เเละ folder ในระบบ unicorn",
+                "text2": "ดำเนินการสร้าง folder ตาม path เครื่อง unicorn เเละ config user ตามที่กำหนด"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            }
+        ]
     },
     {
         "date": "2025-07-23",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "f1",
+                "sys": "ขอใช้งาน vpn ระบบงานทดสอบ Uat",
+                "option": "vpn policies"
+            },
+            {
+                "task": "upload",
+                "src": "christmas101.int",
+                "des": "christmas202.kube",
+                "sys": "โครงการ TFRS9"
+            },
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            }
+        ]
     },
     {
         "date": "2025-07-24",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            }
+        ]
     },
     {
         "date": "2025-07-25",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "",
+                "text1": "Reset Password ของ user บนระบบ CBS",
+                "text2": "ทำการเข้า nonprdidm.core เพื่อเข้าไป reset password ของ user ที่ีะบุไว้"
+            },
+            {
+                "task": "",
+                "text1": "update image version บนเครื่อง K8S บน cluster Liverpool",
+                "text2": "ทำการเข้า ระบบ EPL เพื่อ update image version ของระบบทีกำหนด"
+            },
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            },
+            {
+                "task": "f1",
+                "sys": "ขอ policy ระบบทดสอบ uat",
+                "option": "policies"
+            }
+        ]
     },
     {
         "date": "2025-07-26",
@@ -120,11 +436,45 @@
     },
     {
         "date": "2025-07-29",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uat",
+                "start": "2031-04-29",
+                "end": "2031-05-01"
+            }
+        ]
     },
     {
         "date": "2025-07-30",
-        "tasks": []
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "istb",
+                "start": "2031-06-13",
+                "end": "2031-06-18"
+            },
+            {
+                "task": "upload",
+                "src": "dev201.core",
+                "des": "christmas202.kube",
+                "sys": "ระบบ slak"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            }
+        ]
     },
     {
         "date": "2025-07-31",

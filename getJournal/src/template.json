@@ -41,5 +41,17 @@
         "task": "f1",
         "sys": "Management Hardware ของระบบ Project LPS",
         "option": "network vpn policies"
+    },
+    {
+        "task":"certificate",
+        "src":"icodev.app server Production"
+    },
+    {
+        "task":"reset",
+        "sys":"ระบบ unicorn"
+    },
+    {
+        "task":"auto",
+        "sys":"ระบบ CBS"
     }
 ]

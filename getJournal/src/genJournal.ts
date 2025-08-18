@@ -1,52 +1,41 @@
-// genJournal.ts
-import fs from 'fs'
-import path from "path";
-import { getFormat } from "./getFormat";
+// loop-files-and-days.ts
+import * as fs from "fs";
+import * as path from "path";
 
-type TaskFile = {
+// 1) รายชื่อไฟล์
+const files = ["task_06.json", "task_07.json", "task_08.json"];
+
+// 2) โครงสร้างข้อมูลรายวัน
+interface Day {
     date: string;
-    tasks: any[];
-};
-
-// Path folder ที่เก็บ task JSON
-const TASK_FOLDER = "./tasks"; 
-
-async function genJournal() {
-    // อ่านทุกไฟล์ task_[xx].json
-    const files = fs.readdirSync(TASK_FOLDER).filter(f => f.startsWith("task_") && f.endsWith(".json"));
-
-    let journalAll: { date: string, journal: { [key: string]: string }[] }[] = [];
-
-    for (const file of files) {
-        const filePath = path.join(TASK_FOLDER, file);
-        const data: TaskFile[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-
-        for (const day of data) {
-            let dailyJournal: { [key: string]: string }[] = [];
-
-            for (const task of day.tasks) {
-                const journalText = getFormat(task);
-                dailyJournal.push(journalText);
-            }
-
-            journalAll.push({ date: day.date, journal: dailyJournal });
-        }
-    }
-
-    // เขียนเป็นไฟล์ text แบบง่าย
-    let outputText = "";
-    for (const day of journalAll) {
-        outputText += `=== วันที่: ${day.date} ===\n`;
-        day.journal.forEach((j, idx) => {
-            outputText += `งาน ${idx + 1}:\n`;
-            outputText += `- งานที่ได้รับมอบหมาย: ${j["งานที่ได้รับมอบหมาย"]}\n`;
-            outputText += `- การดำเนินการ: ${j["การดำเนินการ"]}\n`;
-        });
-        outputText += `\n`;
-    }
-
-    fs.writeFileSync("journal_output.txt", outputText, "utf-8");
-    console.log("Write journal_output.txt เสร็จเรียบร้อย");
+    tasks: unknown[];
 }
 
-genJournal();
+// 3) ฟังก์ชันอ่านไฟล์ JSON → Day[]
+function readDaysFromFile(jsonFile: string): Day[] {
+    const filePath = path.join(__dirname, jsonFile);
+    const raw = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(raw) as Day[];
+}
+
+// 4) วนไฟล์ → วนวัน
+function main() {
+    for (const file of files) {
+        console.log(`\n=== FILE: ${file} ===`);
+        const days = readDaysFromFile(file);
+
+        for (const day of days) {
+
+            if (day.tasks?.length > 0) {
+                console.log(`- วันที่: ${day.date} (tasks: ${day.tasks?.length || 0})`);
+                for (const task of day.tasks) {
+                    const data = JSON.stringify(task);
+                    
+                }
+            }
+            // (ตอนถัดไป: ค่อย for-loop tasks ภายในวันนี้)
+        }
+    }
+}
+
+main();

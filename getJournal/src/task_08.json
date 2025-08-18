@@ -1,98 +1,281 @@
 [
     {
         "date": "2025-08-01",
-        "tasks" : [
-            
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "terminal",
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web SCR",
+                "sys": "CBS"
+            },
+            {
+                "task": "f1",
+                "sys": "ต่ออายุ vpn ระบบ TFRS17",
+                "option": "vpn policies"
+            },
+            {
+                "task": "upload",
+                "src": "dev201.core",
+                "des": "christmas202.kube",
+                "sys": "ระบบ slak"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uat",
+                "start": "2031-05-14",
+                "end": "2031-05-15"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uat",
+                "start": "2031-05-15",
+                "end": "2031-05-17"
+            },
+            {
+                "task": "f1",
+                "sys": "ต่ออายุ vpn ระบบ TFRS17",
+                "option": "network vpn policies"
+            },
+            {
+                "task": "upload",
+                "src": "DEV(172.26.81.25)",
+                "des": "Ihasa.int",
+                "sys": "ระบ revival-customer"
+            }
         ]
     },
     {
         "date": "2025-08-02",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-08-03",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-08-04",
-        "tasks" : [
-            
+        "tasks": [
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "terminal",
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่"
+            },
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "terminal",
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่"
+            },
+            {
+                "task": "f1",
+                "sys": "เปิด policies ระหว่างเครื่อง",
+                "option": "policies "
+            },
+            {
+                "task": "upload",
+                "src": "Dev(172.26.81.25)",
+                "des": "jewel.int",
+                "sys": "community file ระบบ ชมชนอุดมสุขเเละศูนย์เรียนรู้"
+            }
         ]
     },
     {
         "date": "2025-08-05",
-        "tasks" : [
-            
+        "tasks": [
+            {
+                "task": "f1",
+                "sys": "ระบบ soagwuat.kube",
+                "option": "policies"
+            },
+            {
+                "task": "upload",
+                "src": "dev201.core",
+                "des": "christmas101.int",
+                "sys": "run Mat file โครงการปรับลดอัตราดอกเบี้ยเงินกู้ระยะยาว"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "",
+                "sys": "CBS"
+            }
         ]
     },
     {
         "date": "2025-08-06",
-        "tasks" : [
-            
+        "tasks": [
+            {
+                "task": "f1",
+                "sys": "ต่ออายุ policies เพื่อ update wbsit:Microsoft.com",
+                "option": "policies"
+            },
+            {
+                "task": "upload",
+                "src": "christmas202.kube",
+                "des": "mail",
+                "sys": "ระบบทดสอบ UAT"
+            },
+            {
+                "task": "upload",
+                "src": "dev201.core",
+                "des": "christmas101.int",
+                "sys": "run Mat file"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "uat",
+                "start": "2031-05-18",
+                "end": "2031-05-19"
+            },
+            {
+                "task": "runbatch",
+                "sys": "CBS",
+                "enviornment": "istb",
+                "start": "2025-06-24",
+                "end": "2025-06-26"
+            }
         ]
     },
     {
         "date": "2025-08-07",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-08-08",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-08-09",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-08-10",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-08-11",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-08-12",
-        "tasks" : [
-            
-        ]
+        "tasks": []
     },
     {
         "date": "2025-08-13",
-        "tasks" : [
-            
+        "tasks": [
+            {
+                "task": "f1",
+                "sys": "โครงการ Kickoff MA Call Center",
+                "option": "policies"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            }
         ]
     },
     {
         "date": "2025-08-14",
-        "tasks" : [
-            
+        "tasks": [
+            {
+                "sys": "ระบบรับ-ส่งข้อมูล สำนักงานใหญ่",
+                "task": "upload-payment"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "recycle server process",
+                "sys": "CBS"
+            }
         ]
     },
     {
         "date": "2025-08-15",
-        "tasks" : [
-            
+        "tasks": [
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "task": "upload",
+                "src": "cbs.int",
+                "des": "christmas202.kube",
+                "sys": "ระบบ งาน Payment-PromptPay"
+            },
+            {
+                "task": "",
+                "text1": "upload file Auto Dr/Cr",
+                "text2": "ดำเนินการซ่อมไฟล์รายงานย้อนหลังตามคู่มือ ของสาขา เเละวันที่ ที่กำหนด"
+            },
+            {
+                "task": "upload",
+                "src": "mail",
+                "des": "terminal",
+                "sys": "ระบบรับ-ส่งข้อมูล สาขา"
+            },
+            {
+                "task": "import",
+                "env": "all",
+                "remark": "reload web CSR",
+                "sys": "CBS"
+            },
+            {
+                "task": "",
+                "text1": "ปรับปรุงระบบ Loan Approve ที่ขึ้นทดสอบ Diag3",
+                "text2": "ดำเนินการ เเก้ไข .war ที่ได้รับจาก mail config ค่าให้ถูกต้อง เเละ upload .war เข้า environment diag3"
+            }
         ]
     },
     {
         "date": "2025-08-16",
-        "tasks" : [
-            
+        "tasks": []
+    },
+    {
+        "date": "2025-08-18",
+        "tasks": [
+            {
+                "task": "",
+                "text1": "นำส่ง apikey สำหรับใช้งาน Production",
+                "text2": "ดำเนินการ สร้าง apikey ของ iauthen ตามคู่มือการใช้งาน เเละนำส่งให้กับผู้ที่เกี่ยวข้อง"
+            }
         ]
     }
 ]
