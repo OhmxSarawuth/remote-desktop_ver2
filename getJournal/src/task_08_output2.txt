@@ -1,0 +1,104 @@
+==== TASK: upload ====
+Output1: ให้ นำส่ง file บนระบบ ระบบรับ-ส่งข้อมูล สำนักงานใหญ่
+
+Output2:
+วันที่ 1 สิงหาคม 2568:
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่งข้อมูล สำนักงานใหญ่
+- ดำเนินการ นำส่ง file จาก จากเครื่อง dev201.core ไปยัง เครื่อง christmas202.kube ตาม path ที่กำหนด บนระบบ ระบบ slak
+- ดำเนินการ นำส่ง file จาก จากเครื่อง DEV(172.26.81.25) ไปยัง เครื่อง Ihasa.int ตาม path ที่กำหนด บนระบบ ระบ revival-customer
+
+วันที่ 4 สิงหาคม 2568:
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่งข้อมูล สำนักงานใหญ่
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่งข้อมูล สำนักงานใหญ่
+- ดำเนินการ นำส่ง file จาก จากเครื่อง Dev(172.26.81.25) ไปยัง เครื่อง jewel.int ตาม path ที่กำหนด บนระบบ community file ระบบ ชมชนอุดมสุขเเละศูนย์เรียนรู้
+
+วันที่ 5 สิงหาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง dev201.core ไปยัง เครื่อง christmas101.int ตาม path ที่กำหนด บนระบบ run Mat file โครงการปรับลดอัตราดอกเบี้ยเงินกู้ระยะยาว
+
+วันที่ 6 สิงหาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas202.kube ไปยัง user ผ่าน mail บนระบบ ระบบทดสอบ UAT
+- ดำเนินการ นำส่ง file จาก จากเครื่อง dev201.core ไปยัง เครื่อง christmas101.int ตาม path ที่กำหนด บนระบบ run Mat file
+
+วันที่ 15 สิงหาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง cbs.int ไปยัง เครื่อง christmas202.kube ตาม path ที่กำหนด บนระบบ ระบบ งาน Payment-PromptPay
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่งข้อมูล สาขา
+
+
+==== TASK: import ====
+Output1: ให้ Import Configuration บนระบบ CBS
+
+Output2:
+วันที่ 1 สิงหาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web SCR
+
+วันที่ 5 สิงหาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ 
+
+วันที่ 13 สิงหาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 14 สิงหาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 15 สิงหาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+
+==== TASK: f1 ====
+Output1: เปิด f1 เรื่อง ต่ออายุ vpn ระบบ TFRS17
+
+Output2:
+วันที่ 1 สิงหาคม 2568:
+- ดำเนินการสร้างคำขอ policies vpn policies ของ ต่ออายุ vpn ระบบ TFRS17 บนระบบ f1
+- ดำเนินการสร้างคำขอ policies network vpn policies ของ ต่ออายุ vpn ระบบ TFRS17 บนระบบ f1
+
+วันที่ 4 สิงหาคม 2568:
+- ดำเนินการสร้างคำขอ policies policies  ของ เปิด policies ระหว่างเครื่อง บนระบบ f1
+
+วันที่ 5 สิงหาคม 2568:
+- ดำเนินการสร้างคำขอ policies policies ของ ระบบ soagwuat.kube บนระบบ f1
+
+วันที่ 6 สิงหาคม 2568:
+- ดำเนินการสร้างคำขอ policies policies ของ ต่ออายุ policies เพื่อ update wbsit:Microsoft.com บนระบบ f1
+
+วันที่ 13 สิงหาคม 2568:
+- ดำเนินการสร้างคำขอ policies policies ของ โครงการ Kickoff MA Call Center บนระบบ f1
+
+
+==== TASK: runbatch ====
+Output1: Run batch บนระบบ CBS ที่ environment uat
+
+Output2:
+วันที่ 1 สิงหาคม 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-05-14 ถึง 2031-05-15 เป็นระยะเวลา 1 วัน บน environment uat
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-05-15 ถึง 2031-05-17 เป็นระยะเวลา 2 วัน บน environment uat
+
+วันที่ 6 สิงหาคม 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-05-18 ถึง 2031-05-19 เป็นระยะเวลา 1 วัน บน environment uat
+- ดำเนินการ run batch ตั้งแต่วันที่ 2025-06-24 ถึง 2025-06-26 เป็นระยะเวลา 2 วัน บน environment istb
+
+
+==== TASK: upload-payment ====
+Output1: ให้ทำการ Upload Payment code
+
+Output2:
+วันที่ 14 สิงหาคม 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+
+==== TASK:  ====
+Output1: upload file Auto Dr/Cr
+
+Output2:
+วันที่ 15 สิงหาคม 2568:
+- ดำเนินการซ่อมไฟล์รายงานย้อนหลังตามคู่มือ ของสาขา เเละวันที่ ที่กำหนด
+- ดำเนินการ เเก้ไข .war ที่ได้รับจาก mail config ค่าให้ถูกต้อง เเละ upload .war เข้า environment diag3
+
+วันที่ 18 สิงหาคม 2568:
+- ดำเนินการ สร้าง apikey ของ iauthen ตามคู่มือการใช้งาน เเละนำส่งให้กับผู้ที่เกี่ยวข้อง
+

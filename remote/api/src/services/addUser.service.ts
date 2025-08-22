@@ -5,7 +5,7 @@ dotenv.config();
 const USE_MOCK = process.env.USE_MOCKUP === "true";
 const GUACAMOLE_API_ENDPOINT = process.env.GUACAMOLE_API_URL ;
 
-export async function guacLogin(username: string, password: string) {
+export async function addUser(username: string, password: string) {
 
     if (USE_MOCK) {
         return {

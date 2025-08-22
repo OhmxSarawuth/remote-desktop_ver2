@@ -32,7 +32,6 @@ const tags = [
     {tag_id:16,host_id:3,tag_depend:15,tag_type:"env",tag_data:"dev"},
     {tag_id:17,host_id:3,tag_depend:15,tag_type:"user",tag_data:"root"},
     {tag_id:18,host_id:3,tag_depend:17,tag_type:"password",tag_data:"password"}
-
 ]
 
 // API functions

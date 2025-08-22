@@ -1,9 +1,10 @@
 import express from 'express';
 import axios from 'axios';
+import { stringify } from 'querystring';
 
 const gucadRouter = express.Router();
 
-const GUAC_URL = 'http://localhost:80/guacamole';
+const GUAC_URL = 'http://ohmtest.kube.baac.or.th:8080/guacamole';
 const DATA_SOURCE = 'mysql';
 
 gucadRouter.post('/getAuthToken', async (req, res) => {
@@ -29,7 +30,8 @@ gucadRouter.post('/getAuthToken', async (req, res) => {
         dataSource: DATA_SOURCE
       }
     });
-
+    console.log("success"+JSON.stringify(response.data));
+    
     res.json(response.data);
   } catch (error: any) {
     console.error('Error getting authToken:', error.response?.data || error.message);

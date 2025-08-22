@@ -1,0 +1,195 @@
+==== TASK: upload ====
+Output1: ให้ นำส่ง file บนระบบ ระบบ Customer-review
+
+Output2:
+วันที่ 1 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง DEV(172.21.192.47) ไปยัง เครื่อง customer-review(172.21.0.130) ตาม path ที่กำหนด บนระบบ ระบบ Customer-review
+- ดำเนินการ นำส่ง file จาก จากเครื่อง LMSSRV(172.29.31.39) ไปยัง user ผ่าน mail บนระบบ ระบบเบิกเช็ค
+
+วันที่ 8 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่งข้อมูล สำนักงานใหญ่
+- ดำเนินการ นำส่ง file จาก จากเครื่อง cristmas101.int ไปยัง เครื่อง Fruad (172.29.28.112) ตาม path ที่กำหนด บนระบบ ระบบ Fruad-AML
+- ดำเนินการ นำส่ง file จาก จากเครื่อง bureauWeb(172.29.31.91) ไปยัง เครื่อง Server(172.26.35.27) ตาม path ที่กำหนด บนระบบ ระบบ bureau เพื่อประมวลผลนำส่งบริษัท NCB
+
+วันที่ 9 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง bureau v2 ไปยัง เครื่อง bureauWeb(172.29.31.91) ตาม path ที่กำหนด บนระบบ ระบบ bureau เพื่อ เพิ่มไฟล์ประกาศข่าว
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas101.int ไปยัง เครื่อง Fruad(172.29.28.112) ตาม path ที่กำหนด บนระบบ ระบบ Fruad-AML
+
+วันที่ 14 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่ง ข้อมูลสาขา
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่งข้อมูล สาขา Data Delivery
+- ดำเนินการ นำส่ง file จาก จากเครื่อง Dev(172.26.81.25) ไปยัง เครื่อง Ihasa.int ตาม path ที่กำหนด บนระบบ โครงการ Newgen-Smartfarmer
+
+วันที่ 15 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง jewel.int Production ไปยัง เครื่อง DEV(172.26.81.85) ตาม path ที่กำหนด บนระบบ ระบบ EWS 
+- ดำเนินการ นำส่ง file จาก จากเครื่อง bureauWeb(172.29.31.91) ไปยัง เครื่อง Server(172.26.35.27) ตาม path ที่กำหนด บนระบบ ระบบ bureau
+
+วันที่ 16 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง bureauWeb(172.29.31.91) ไปยัง เครื่อง Server(172.26.35.27) ตาม path ที่กำหนด บนระบบ ระบบ bureau
+
+วันที่ 21 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง Production(172,29,22,66) ไปยัง user ผ่าน mail บนระบบ ระบบ AAG
+
+วันที่ 23 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas101.int ไปยัง เครื่อง christmas202.kube ตาม path ที่กำหนด บนระบบ โครงการ TFRS9
+
+วันที่ 30 กรกฎาคม 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง dev201.core ไปยัง เครื่อง christmas202.kube ตาม path ที่กำหนด บนระบบ ระบบ slak
+
+
+==== TASK: f1 ====
+Output1: เปิด f1 เรื่อง Management Hardware ของระบบ Project LPS
+
+Output2:
+วันที่ 1 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies network vpn policies ของ Management Hardware ของระบบ Project LPS บนระบบ f1
+- ดำเนินการสร้างคำขอ policies policies ของ Access Loma ของระบบ EDMS บนระบบ f1
+
+วันที่ 7 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies network vpn policies ของ ขอขยายเวลลาการใช้งานของระบบ Project LPS บนระบบ f1
+
+วันที่ 8 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies network vpn policies ของ ระบบ ศาลยุติธรรม บนระบบ f1
+- ดำเนินการสร้างคำขอ policies network vpn policies ของ ขยายระยะเวลา UserVpn ระบบ โครงการ TFRS9 บนระบบ f1
+
+วันที่ 11 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies policies ของ โครงการ Kickoff MA Call Center บนระบบ f1
+
+วันที่ 14 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies network vpn policies ของ ต่ออายุ user policies ทีมงาน TechX ระบบ LPS บนระบบ f1
+- ดำเนินการสร้างคำขอ policies policies ของ เพิ่มสิทธิ ให้ user โครงการ e-LG บนระบบ f1
+- ดำเนินการสร้างคำขอ policies policies ของ เปิด policies ให้ user ระบบ JetBrains บนระบบ f1
+
+วันที่ 16 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies network policies ของ ต่ออายุ user policies ทีมงาน TechX ระบบ LPS บนระบบ f1
+
+วันที่ 17 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies network policies ของ ต่ออายุ user policies ทีมงาน TechX ระบบ LPS บนระบบ f1
+
+วันที่ 21 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies network vpn policies ของ ขยายเวลา wifi/vpn ให้บริษัทคู่สัญญา บนระบบ f1
+
+วันที่ 23 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies vpn policies ของ ขอใช้งาน vpn ระบบงานทดสอบ Uat บนระบบ f1
+
+วันที่ 25 กรกฎาคม 2568:
+- ดำเนินการสร้างคำขอ policies policies ของ ขอ policy ระบบทดสอบ uat บนระบบ f1
+
+
+==== TASK: import ====
+Output1: ให้ Import Configuration บนระบบ CBS
+
+Output2:
+วันที่ 1 กรกฎาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ 
+
+วันที่ 7 กรกฎาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ 
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 8 กรกฎาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ หลังจากทำการ rebuild เเล้ว recycle server process
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+วันที่ 18 กรกฎาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 21 กรกฎาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ 
+
+วันที่ 22 กรกฎาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 24 กรกฎาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+วันที่ 30 กรกฎาคม 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+
+==== TASK: certificate ====
+Output1: ต่ออายุ Certificate 
+
+Output2:
+วันที่ 8 กรกฎาคม 2568:
+- ดำเนินการ เปลี่ยน certificate บนระบบ icodev.app server Production ให้เป็น version ใหม่
+
+
+==== TASK: upload-payment ====
+Output1: ให้ทำการ Upload Payment code
+
+Output2:
+วันที่ 9 กรกฎาคม 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+วันที่ 23 กรกฎาคม 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+วันที่ 25 กรกฎาคม 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+
+==== TASK: reset ====
+Output1: ให้ reset password ระบบ ระบบ unicorn
+
+Output2:
+วันที่ 11 กรกฎาคม 2568:
+- ดำเนินการ เข้า ระบบ ระบบ unicorn ด้วยสิทธิ admin เเล้วทำการ reset password ให้กับ user
+
+
+==== TASK: runbatch ====
+Output1: Run batch บนระบบ CBS ที่ environment uatb
+
+Output2:
+วันที่ 11 กรกฎาคม 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2025-05-18 ถึง 2025-05-19 เป็นระยะเวลา 1 วัน บน environment uatb
+
+วันที่ 29 กรกฎาคม 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-04-29 ถึง 2031-05-01 เป็นระยะเวลา 2 วัน บน environment uat
+
+วันที่ 30 กรกฎาคม 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-06-13 ถึง 2031-06-18 เป็นระยะเวลา 5 วัน บน environment istb
+
+
+==== TASK: auto ====
+Output1: นำส่ง รายงาน auto Cr/Dr บนระบบ รับส่งข้อมูล
+
+Output2:
+วันที่ 16 กรกฎาคม 2568:
+- ดำเนินการ ซ่อม file ย้อนหลังตามคู่มือ เเล้วทำการนำส่งรายงาน auto Cr/Dr เข้าสู่ระบบรับส่งข้อมูลสาขา
+
+
+==== TASK: update-gui ====
+Output1: ให้ update image version ของระบบ ระบบ BAAC-Loan
+
+Output2:
+วันที่ 16 กรกฎาคม 2568:
+- ดำเนินการ update image version ของระบบ ระบบ BAAC-Loan พร้อม restart service ให้ทำงานได้ตามปกติ
+
+วันที่ 18 กรกฎาคม 2568:
+- ดำเนินการ update image version ของระบบ  พร้อม restart service ให้ทำงานได้ตามปกติ
+- ดำเนินการ update image version ของระบบ ระบบ BAAC-Loan พร้อม restart service ให้ทำงานได้ตามปกติ
+- ดำเนินการ update image version ของระบบ ระบบ BAAC-Loan พร้อม restart service ให้ทำงานได้ตามปกติ
+
+
+==== TASK:  ====
+Output1: นำส่ง log ของเครื่อง ins-query
+
+Output2:
+วันที่ 18 กรกฎาคม 2568:
+- download logfile ของเครื่อง ins-query จาก  
+
+วันที่ 21 กรกฎาคม 2568:
+- ดำเนินการสร้าง folder ตาม path เครื่อง unicorn เเละ config user ตามที่กำหนด
+
+วันที่ 22 กรกฎาคม 2568:
+- ดำเนินการสร้าง folder ตาม path เครื่อง unicorn เเละ config user ตามที่กำหนด
+
+วันที่ 25 กรกฎาคม 2568:
+- ทำการเข้า nonprdidm.core เพื่อเข้าไป reset password ของ user ที่ีะบุไว้
+- ทำการเข้า ระบบ EPL เพื่อ update image version ของระบบทีกำหนด
+

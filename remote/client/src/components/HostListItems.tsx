@@ -16,7 +16,7 @@ const HostListItems: React.FC<HostListItemsProps> = ({ hosts, groupStack, token 
     <div>
       <ul>
         {hosts.map(hd => (
-          <HostItemComponent key={hd.host.host_id} item={hd} />
+          <HostItemComponent key={hd.host.host_id} item={hd} token={token} />
         ))}
       </ul>
     </div>

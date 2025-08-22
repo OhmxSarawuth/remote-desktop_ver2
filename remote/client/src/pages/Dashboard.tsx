@@ -23,6 +23,7 @@ function Dashboard() {
     const [activeTab, setActiveTab] = useState("hostlist");
 
     const renderTabContent = () => {
+        console.log(`token is ${token}`);
         switch (activeTab) {
             case "hostlist":
                 return <HostList username={username} token={token} />;

@@ -1,0 +1,197 @@
+==== TASK: runbatch ====
+Output1: Run batch บนระบบ CBS ที่ environment uat
+
+Output2:
+วันที่ 4 มิถุนายน 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-03-19 ถึง 2031-03-20 เป็นระยะเวลา 1 วัน บน environment uat
+
+วันที่ 16 มิถุนายน 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-03-21 ถึง 2031-03-22 เป็นระยะเวลา 1 วัน บน environment uat
+
+วันที่ 18 มิถุนายน 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-03-22 ถึง 2031-03-23 เป็นระยะเวลา 1 วัน บน environment uat
+
+วันที่ 20 มิถุนายน 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-03-26 ถึง 2031-04-01 เป็นระยะเวลา 6 วัน บน environment uat
+
+วันที่ 23 มิถุนายน 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2031-04-01 ถึง 2031-04-02 เป็นระยะเวลา 1 วัน บน environment uat
+
+วันที่ 24 มิถุนายน 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2025-04-22 ถึง 2025-04-25 เป็นระยะเวลา 3 วัน บน environment istb
+- ดำเนินการ run batch ตั้งแต่วันที่ 2025-05-11 ถึง 2025-05-12 เป็นระยะเวลา 1 วัน บน environment uatb
+
+วันที่ 27 มิถุนายน 2568:
+- ดำเนินการ run batch ตั้งแต่วันที่ 2025/05/17 ถึง 2025/05/19 เป็นระยะเวลา 2 วัน บน environment istb
+
+
+==== TASK: upload-payment ====
+Output1: ให้ทำการ Upload Payment code
+
+Output2:
+วันที่ 4 มิถุนายน 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+วันที่ 6 มิถุนายน 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+วันที่ 20 มิถุนายน 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+วันที่ 27 มิถุนายน 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+วันที่ 30 มิถุนายน 2568:
+- ดำเนินการนำคู่ code branch ไปทำการเข้าสูตร excel เเล้วทำการ query บนระบบ terminal จอดำ
+
+
+==== TASK: upload ====
+Output1: ให้ นำส่ง file บนระบบ 
+
+Output2:
+วันที่ 4 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas101 ไปยัง เครื่อง amber ตาม path ที่กำหนด บนระบบ 
+
+วันที่ 6 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่งข้อมูล สำนักงานใหญ่
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบรับ-ส่งข้อมูล สำนักงานใหญ่
+
+วันที่ 9 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas101 ไปยัง เครื่อง amber ตาม path ที่กำหนด บนระบบ 
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas202 ไปยัง user ผ่าน mail บนระบบ Remittance
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas101 ไปยัง เครื่อง fraud ตาม path ที่กำหนด บนระบบ Fraud AML
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง univer.int ตาม path ที่กำหนด บนระบบ ระบบขอใช้ห้องประชุมอาคาร oaMeeting
+
+วันที่ 10 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง cristmas202 ไปยัง เครื่อง terminal ตาม path ที่กำหนด บนระบบ ระบบทดสอบ UAT
+- ดำเนินการ นำส่ง file จาก จากเครื่อง dev(172.26.81.25) ไปยัง เครื่อง ihasa.int ตาม path ที่กำหนด บนระบบ ระบบ newgen-smartfarmer
+- ดำเนินการ นำส่ง file จาก จากเครื่อง dev(172.21.192.47) ไปยัง เครื่อง customer-review.kube(172.21.0.130) ตาม path ที่กำหนด บนระบบ ระบบ customer-review
+- ดำเนินการ นำส่ง file จาก จากเครื่อง unicorn ไปยัง เครื่อง dev201.core ตาม path ที่กำหนด บนระบบ ระบบทดสอบสลาก ที่ Unicorn
+- ดำเนินการ นำส่ง file จาก จากเครื่อง Bureau_v2(172.26.35.27) ไปยัง เครื่อง Bureauweb ตาม path ที่กำหนด บนระบบ ระบบ Bureau
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas202 ไปยัง user ผ่าน mail บนระบบ ระบบ UAT Remittance Phase 2
+
+วันที่ 11 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง jasper(172.26.82.61) ไปยัง เครื่อง  baacloanjasperkube.kube ตาม path ที่กำหนด บนระบบ ระบบ BAAC-Loan
+
+วันที่ 12 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas202 ไปยัง user ผ่าน mail บนระบบ ระบบ UAT Remittance Phase 2
+- ดำเนินการ นำส่ง file จาก จากเครื่อง jasper(172.26.82.61) ไปยัง เครื่อง  baacloanjasperkube.kube ตาม path ที่กำหนด บนระบบ ระบบ BAAC-Loan
+- ดำเนินการ นำส่ง file จาก user ผ่าน mail ไปยัง เครื่อง christmas201.int ตาม path ที่กำหนด บนระบบ GroupPayment
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas202 ไปยัง user ผ่าน mail บนระบบ ระบบ UAT Remittance Phase 2
+- ดำเนินการ นำส่ง file จาก จากเครื่อง jasper(172.26.82.61) ไปยัง เครื่อง  baacloanjasperkube.kube ตาม path ที่กำหนด บนระบบ ระบบ BAAC-Loan
+
+วันที่ 13 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas101 ไปยัง เครื่อง dev201.core ตาม path ที่กำหนด บนระบบ ตัดชำระฌครงการ อสม ที่ PROD
+- ดำเนินการ นำส่ง file จาก จากเครื่อง dev201.core ไปยัง เครื่อง exadb ตาม path ที่กำหนด บนระบบ ตัดชำระฌครงการ อสม ที่ PROD
+
+วันที่ 17 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง DEV(172.21.192.47) ไปยัง เครื่อง customer-review.kube(172.21.0.130) ตาม path ที่กำหนด บนระบบ ระบบ Customer-review
+- ดำเนินการ นำส่ง file จาก จากเครื่อง DEV(172.26.81.25) ไปยัง เครื่อง Ihasa.int ตาม path ที่กำหนด บนระบบ ระบบ Revival-customer
+
+วันที่ 18 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง DEV(172.26.81.25) ไปยัง เครื่อง Ihasa.int ตาม path ที่กำหนด บนระบบ ระบบ Newgen-smartfarmer
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas202.kube ไปยัง user ผ่าน mail บนระบบ ระบบ UAT Remittance Phase 2
+
+วันที่ 19 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas202.kube ไปยัง user ผ่าน mail บนระบบ UAT Remittance Phase 2
+- ดำเนินการ นำส่ง file จาก จากเครื่อง DEV(172.21.192.47) ไปยัง เครื่อง customer-review.kube(172.21.0.130) ตาม path ที่กำหนด บนระบบ ระบบ Customer-review
+
+วันที่ 20 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง univer.int ไปยัง user ผ่าน mail บนระบบ ระบบชำระค่าน้ำมันเชื้อเพลิง
+- ดำเนินการ นำส่ง file จาก จากเครื่อง christmas202.kube ไปยัง user ผ่าน mail บนระบบ UAT Remittance Phase 2
+- ดำเนินการ นำส่ง file จาก จากเครื่อง Halloween PROD ไปยัง user ผ่าน mail บนระบบ ระบบ Swiftmx and mt
+
+วันที่ 26 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง bureau_v2(172.26.35.27) ไปยัง เครื่อง bureauweb ตาม path ที่กำหนด บนระบบ ระบบ bureau
+- ดำเนินการ นำส่ง file จาก จากเครื่อง bureau_v2(172.26.35.27) ไปยัง เครื่อง bureauweb ตาม path ที่กำหนด บนระบบ ระบบ bureau
+- ดำเนินการ นำส่ง file จาก จากเครื่อง 172.26.82.61 ไปยัง เครื่อง jasper PROD ตาม path ที่กำหนด บนระบบ ระบบ BAAC-Loan
+
+วันที่ 30 มิถุนายน 2568:
+- ดำเนินการ นำส่ง file จาก จากเครื่อง dev(172.21.192.47) ไปยัง เครื่อง customer-review.kube(172.21.0.130) ตาม path ที่กำหนด บนระบบ ระบบ customer-review
+
+
+==== TASK: runMat ====
+Output1: Run Mat บนระบบ CBS
+
+Output2:
+วันที่ 6 มิถุนายน 2568:
+- ดำเนินการ upload Mat file จากเครื่อง dev201.core ไปยังเครื่อง christmas101.int ตาม path เพื่อใช้ในการ run mat file
+
+
+==== TASK: import ====
+Output1: ให้ Import Configuration บนระบบ CBS
+
+Output2:
+วันที่ 10 มิถุนายน 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 11 มิถุนายน 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 12 มิถุนายน 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 17 มิถุนายน 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 23 มิถุนายน 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+
+วันที่ 25 มิถุนายน 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+วันที่ 26 มิถุนายน 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ reload web CSR
+
+วันที่ 27 มิถุนายน 2568:
+- ดำเนินการนำเข้าไฟล์ Configuration เข้าสู่ระบบ CBS ในทุก Environment (SIT และ UAT) โดยมีการสำรองข้อมูล (Backup) ก่อนดำเนินการ Import เเละ ทำการ recycle server process เเละ reload web CSR
+
+
+==== TASK:  ====
+Output1: ไม่ระบุ Task
+
+Output2:
+วันที่ 12 มิถุนายน 2568:
+- ไม่มีรายละเอียดเพิ่มเติม
+
+วันที่ 17 มิถุนายน 2568:
+- upload file .csv จาก mail ไปยังเครื่อง terminal เเล้วเขียน script เเจก file ตาม path ที่กำหนด
+
+วันที่ 19 มิถุนายน 2568:
+- ไม่มีรายละเอียดเพิ่มเติม
+
+
+==== TASK: update-gui ====
+Output1: ให้ update image version ของระบบ ระบบ BAAC-Loan
+
+Output2:
+วันที่ 12 มิถุนายน 2568:
+- ดำเนินการ update image version ของระบบ ระบบ BAAC-Loan พร้อม restart service ให้ทำงานได้ตามปกติ
+
+
+==== TASK: f1 ====
+Output1: เปิด f1 เรื่อง Management Hardware ของระบบ Project LPS
+
+Output2:
+วันที่ 13 มิถุนายน 2568:
+- ดำเนินการสร้างคำขอ policies network vpn policies ของ Management Hardware ของระบบ Project LPS บนระบบ f1
+
+วันที่ 18 มิถุนายน 2568:
+- ดำเนินการสร้างคำขอ policies vpn policies ของ Virtual Audit บนระบบ f1
+
+วันที่ 20 มิถุนายน 2568:
+- ดำเนินการสร้างคำขอ policies policies ของ ติดตั้ง e-LG system บนระบบ f1
+
+วันที่ 25 มิถุนายน 2568:
+- ดำเนินการสร้างคำขอ policies network ของ Vitual Audit บนระบบ f1
+
+
+==== TASK: undefined ====
+Output1: ไม่ระบุ Task
+
+Output2:
+วันที่ 27 มิถุนายน 2568:
+- ไม่มีรายละเอียดเพิ่มเติม
+

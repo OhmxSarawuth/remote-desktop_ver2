@@ -7,28 +7,28 @@ const LoginPage: React.FC = () => {
   const handleLogin = async () => {
 
 
-  const res = await fetch("http://localhost:3001/api/guac/getAuthToken", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          // *** ข้อควรระวัง: CORS ***
-          // หาก React App และ Guacamole ไม่ได้รันบน Domain/Port เดียวกัน
-          // คุณอาจต้องตั้งค่า CORS บน Guacamole Tomcat (ใน web.xml)
-          // หรือใช้ Proxy ใน development environment
-        },
-        body: JSON.stringify({username: username, password: password})
-      });
+    const res = await fetch("http://localhost:3001/api/guac/getAuthToken", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        // *** ข้อควรระวัง: CORS ***
+        // หาก React App และ Guacamole ไม่ได้รันบน Domain/Port เดียวกัน
+        // คุณอาจต้องตั้งค่า CORS บน Guacamole Tomcat (ใน web.xml)
+        // หรือใช้ Proxy ใน development environment
+      },
+      body: JSON.stringify({ username: username, password: password })
+    });
 
-  if (res.ok) {
-    const data = await res.json();
-    localStorage.setItem("authToken", data.authToken);
-    localStorage.setItem("username", data.username);
-    localStorage.setItem("dataSource", data.dataSource);
-    window.location.href = "/";
-  } else {
-    alert("Login failed");
-  }
-};
+    if (res.ok) {
+      const data = await res.json();
+      localStorage.setItem("authToken", data.authToken);
+      localStorage.setItem("username", data.username);
+      localStorage.setItem("dataSource", data.dataSource);
+      window.location.href = "/";
+    } else {
+      alert("Login failed");
+    }
+  };
 
 
   return (
